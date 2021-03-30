@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia:400,400i,700,700i')
+body {
+	margin: 0;
+}
+.nav-block {
+	width: 100%;
+	height: 70px;
+	background: #515151;
+}
+
+.navigate {
+	width: 1170px;
+	height: 70px;
+	margin: auto;
+	text-align: center;
+}
+
+.navigate ul {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 26px;
+
+}
+
+.navigate li {
+	display: inline;
+	list-style-type: none;
+	font-size: 18px;
+	font-family: Georgia; 
+	color: #fff;
+	padding-left: 46px;
+
+}
