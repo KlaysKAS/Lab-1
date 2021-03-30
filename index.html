@@ -4,6 +4,16 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="stylesheet.css">
 	<title>Who am I?</title>
+	<script>
+ 		$(document).ready(function(){
+    	$(".nav").on("click","a", function (event) {
+	        event.preventDefault();
+	        var id  = $(this).attr('href'),
+	            top = $(id).offset().top;
+        	$('body,html').animate({scrollTop: top}, 1500);
+    	});
+});
+</script>
 </head>
 <body>
 	
@@ -11,17 +21,17 @@
 	<div class="nav-block">
 		<nav class="navigate">
 			<ul>
-				<li>Обо мне</li>
-				<li>Мои знания</li>
-				<li>Цели</li>
-				<li>Увлечения</li>
-				<li>Напиточки</li>
+				<a href="#about"><li>Обо мне</li> </a>
+				<a href="#skills"><li>Мои знания</li></a>
+				<a href="#goals"><li>Цели</li> </a>
+				<a href="#"><li>Увлечения</li> </a>
+				<a href="#"><li>Напиточки</li> </a>
 			</ul>
 		</nav>
 	</div>
 
 	<!-- About me -->
-	<div class="about-block">
+	<div id="about" class="about-block">
 		<section class="about">
 			<img src="materials/My_Photo.png" alt="My Photo">
 			<h1>Обо мне</h1>
@@ -30,9 +40,9 @@
 	</div>
 
 	<!-- My skills -->
-	<div class="my_skills-block">
+	<div id="skills" class="my_skills-block">
 		<section class="my_skills">
-			<h1>Мои умения</h1>
+			<h1>Мои знания</h1>
 			<img class="C" src="materials/C++progress.png" alt="C++">
 			<img class="CS" src="materials/CSprogress.png" alt="C#">
 			<img class="HTML" src="materials/HTML5progress.png" alt="HTML5">
@@ -40,7 +50,7 @@
 	</div>
 
 	<!-- Goals -->
-	<div class="goals-block">
+	<div id="goals" class="goals-block">
 		<section class="goals">
 			<h1>Цели</h1>
 			<img class="game" src="materials/games.png" alt="">
@@ -52,8 +62,8 @@
 	<!-- Footer -->
 	<div class="footer-block">
 		<section class="footer">
-			<a href="https://vk.com/klayskas"><img class="vk" src="materials/vk.png" alt=""></a>
-			<a href="https://t.me/KlaysKAS"><img class="telegram" src="materials/telegram.png" alt=""></a>
+			<a href="https://vk.com/klayskas" target="_blank"><img class="vk" src="materials/vk.png" alt=""></a>
+			<a href="https://t.me/KlaysKAS" target="_blank"><img class="telegram" src="materials/telegram.png" alt=""></a>
 		</section>
 	</div>
 </body>
