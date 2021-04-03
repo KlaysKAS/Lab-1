@@ -17,6 +17,9 @@ h1 {
 p {
 	font-size: 20px;
 }
+a {
+	text-decoration: none;
+}
 
 /* Styles to nanigate-menu */
 .nav-block {
