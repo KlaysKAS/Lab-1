@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Georgia:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900,900i');
 
 /*Global styles */
 html {
@@ -17,6 +16,9 @@ h1 {
 }
 p {
 	font-size: 20px;
+}
+a {
+	text-decoration: none;
 }
 
 /* Styles to nanigate-menu */
@@ -44,9 +46,10 @@ p {
 	display: inline;
 	list-style-type: none;
 	font-size: 18px;
-	font-family: Georgia; 
+	font-family: Roboto; 
 	color: #fff;
 	padding-left: 46px;
+	font-weight: 400;
 }
 
 /* Styles to 'About me'-block */
