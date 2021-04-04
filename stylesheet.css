@@ -163,3 +163,37 @@ section {
 
 }
 
+/* Styles for drinks */
+.table {
+	margin-top: 60px;
+	text-align: center;
+	align-items:center;
+}
+.table table {
+	margin:auto;
+	margin-top: 60px;
+	font-family: Roboto;
+	font-weight: 20px;
+	width: 1170px;
+	text-align: left;
+	border-collapse: collapse;
+	border: 2px solid grey;
+}
+.table th, td {
+	padding: 10px 5px;
+	border: 1px solid grey;
+}
+.c1 {
+	width: 130px;
+}
+.c2 {
+	width: 200px;
+	text-align: center;
+}
+.c3 {
+
+}
+.s1	{
+	text-align: center;
+}
+
